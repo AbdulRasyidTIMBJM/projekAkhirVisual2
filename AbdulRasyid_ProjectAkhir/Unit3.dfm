@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 192
-  Top = 125
+  Left = 199
+  Top = 320
   Width = 870
   Height = 450
   Caption = 'Form Data Kelas'
@@ -138,9 +138,7 @@ object Form3: TForm3
     Database = 'db_sekolah'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 
-      'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
-      '\libmysql.dll'
+    LibraryLocation = 'C:\Program Files (x86)\Borland\Zeos703\libmysql.dll'
     Left = 296
     Top = 80
   end

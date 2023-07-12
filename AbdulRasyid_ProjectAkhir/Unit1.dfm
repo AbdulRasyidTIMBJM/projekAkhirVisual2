@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 157
-  Top = 79
+  Left = 197
+  Top = 172
   Width = 935
-  Height = 658
+  Height = 652
   Caption = 'Form Data Siswa'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -289,9 +289,7 @@ object Form1: TForm1
     Database = 'db_sekolah'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 
-      'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
-      '\libmysql.dll'
+    LibraryLocation = 'C:\Program Files (x86)\Borland\Zeos703\libmysql.dll'
     Left = 24
     Top = 8
   end

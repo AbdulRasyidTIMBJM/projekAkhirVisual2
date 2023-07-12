@@ -1,8 +1,8 @@
 object Form7: TForm7
   Left = 192
   Top = 125
-  Width = 1060
-  Height = 501
+  Width = 870
+  Height = 450
   Caption = 'Form Input Data Hubungan'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -141,37 +141,6 @@ object Form7: TForm7
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
     OnCellClick = DBGrid1CellClick
-    Columns = <
-      item
-        Expanded = False
-        FieldName = 'id'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'siswa_id'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'ortu_id'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'status'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'keterangan'
-        Width = 50
-        Visible = True
-      end>
   end
   object DBGrid2: TDBGrid
     Left = 304
@@ -186,97 +155,6 @@ object Form7: TForm7
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
     OnCellClick = DBGrid2CellClick
-    Columns = <
-      item
-        Expanded = False
-        FieldName = 'siswa_id'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'nis'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'nisn'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'nama_siswa'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'nik'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'tempat_lahir'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'tgl_lahir'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'jenis_kelamin'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'tingkat_kelas'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'jurusan'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'wali_kelas'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'alamat'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'telp'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'hp'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'status'
-        Width = 50
-        Visible = True
-      end>
   end
   object DBGrid3: TDBGrid
     Left = 672
@@ -291,67 +169,6 @@ object Form7: TForm7
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
     OnCellClick = DBGrid3CellClick
-    Columns = <
-      item
-        Expanded = False
-        FieldName = 'ortu_id'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'nik'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'nama'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'pendidikan'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'pekerjaan'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'telp'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'alamat'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'agama'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'jenis_kelamin'
-        Width = 50
-        Visible = True
-      end
-      item
-        Expanded = False
-        FieldName = 'status'
-        Width = 50
-        Visible = True
-      end>
   end
   object ComboBox2: TComboBox
     Left = 112
@@ -374,7 +191,9 @@ object Form7: TForm7
     Database = 'db_sekolah'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Program Files (x86)\Borland\Zeos703\libmysql.dll'
+    LibraryLocation = 
+      'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
+      '\libmysql.dll'
     Left = 32
     Top = 312
   end
@@ -388,7 +207,9 @@ object Form7: TForm7
     Database = 'db_sekolah'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Program Files (x86)\Borland\Zeos703\libmysql.dll'
+    LibraryLocation = 
+      'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
+      '\libmysql.dll'
     Left = 328
     Top = 16
   end
@@ -402,7 +223,9 @@ object Form7: TForm7
     Database = 'db_sekolah'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Program Files (x86)\Borland\Zeos703\libmysql.dll'
+    LibraryLocation = 
+      'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
+      '\libmysql.dll'
     Left = 696
     Top = 16
   end

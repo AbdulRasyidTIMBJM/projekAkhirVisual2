@@ -1,8 +1,8 @@
 object Form2: TForm2
-  Left = 192
-  Top = 124
+  Left = 200
+  Top = 241
   Width = 870
-  Height = 451
+  Height = 450
   Caption = 'Form Data Orang Tua'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -224,9 +224,7 @@ object Form2: TForm2
     Database = 'db_sekolah'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 
-      'D:\akin\KULIAH\Semester 4\Pemrograman Visual 2\Projek_Poin_Siswa' +
-      '\libmysql.dll'
+    LibraryLocation = 'C:\Program Files (x86)\Borland\Zeos703\libmysql.dll'
     Left = 336
     Top = 16
   end
